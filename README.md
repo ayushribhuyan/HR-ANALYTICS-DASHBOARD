@@ -1,54 +1,52 @@
-📊 HR Analytics Dashboard – Tableau
-This repository contains an interactive HR Analytics Dashboard built using Tableau, aimed at helping HR professionals and business leaders gain actionable insights from employee data. The dashboard visualizes key metrics such as attrition, job satisfaction, performance ratings, and departmental trends—empowering data-driven decisions to enhance employee engagement and reduce turnover.
+# 📊 HR Analytics Dashboard – Tableau
 
-📌 Dashboard Highlights
-The dashboard offers a high-level overview of critical HR indicators:
+This repository features an interactive **HR Analytics Dashboard** built using **Tableau**, designed to provide actionable insights into workforce trends and support data-driven HR decision-making. The dashboard helps HR teams understand employee attrition, departmental dynamics, satisfaction levels, and key performance indicators through clear visualizations and interactive filters.
 
-Total Attrition vs. Active Employees
+---
 
-Average Age of Employees
+## 📌 Dashboard Insights
 
-Attrition by Gender
+The final Tableau dashboard includes the following components:
 
-Attrition by Department
+- **Overall Employee Summary**: Total employees, active employees, and attrition count  
+- **Average Age of Workforce**: Displays the mean age across the organization  
+- **Attrition by Gender**: Comparison of male vs. female attrition rates  
+- **Attrition by Department**: Identifies departments with the highest attrition  
+- **Education Field Distribution**: Breakdown of employee education backgrounds  
+- **Attrition by Age Group**: Visual segmentation of attrition by age ranges  
+- **Performance Rating Distribution**: Shows how employees are rated across different levels  
+- **Monthly Income vs. Attrition**: Correlation between salary levels and attrition behavior  
+- **Job Satisfaction by Department**: Aggregated satisfaction scores by department  
+- **Environment Satisfaction Overview**: Gauges employee sentiment toward their work environment  
 
-Education Field Distribution
+Each visualization is interactive and can be filtered by attributes like Department, Gender, and Education Field for deeper analysis.
 
-Attrition by Age Group
+---
 
-Performance Rating Overview
+## 🧰 Tools & Technologies
 
-Monthly Income vs. Attrition Trends
+- **Tableau Desktop** – Data visualization and dashboard creation  
+- **Excel/CSV** – Source data formatting and cleaning  
+- **Sample HR Dataset** – Includes fields such as:  
+  - Employee ID, Age, Gender, Department, Job Role  
+  - Education Level, Education Field  
+  - Attrition Status, Monthly Income, Environment Satisfaction  
+  - Job Satisfaction, Performance Rating, Years at Company
 
-Job Satisfaction by Department
+---
 
-Environment Satisfaction Scores
+## 📁 Repository Contents
 
-All visuals are interactive and filterable for dynamic exploration of HR data.
+ HR-Analytics-Dashboard
+├── HR_ANALYTICS_DASHBOARD.twb # Tableau workbook file
+├── hr_data_sample.csv # (Optional) Sample dataset used
+├── README.md # Project overview and instructions
+└── Screenshots/ # (Optional) Dashboard preview images
 
-🧰 Tools & Technologies
-Tableau Desktop – For creating the dashboard
+## 🎯 Use Cases
 
-Excel/CSV – Source data preparation
-
-Sample HR Dataset – Contains fields like:
-
-Employee ID, Age, Gender, Department, Job Role
-
-Education, Education Field, Environment Satisfaction
-
-Monthly Income, Job Satisfaction, Performance Rating
-
-Attrition status
-
-🎯 Use Cases
-Strategic HR Reporting
-
-Attrition and Retention Analysis
-
-Workforce Demographics Visualization
-
-Performance and Satisfaction Monitoring
-
-Departmental HR Health Checks
-
+- HR performance and attrition reporting  
+- Data-driven hiring and retention planning  
+- Understanding departmental turnover patterns  
+- Analyzing the relationship between compensation and attrition  
+- Monitoring employee satisfaction and workplace sentiment  
