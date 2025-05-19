@@ -38,10 +38,10 @@ Each visualization is interactive and can be filtered by attributes like Departm
 ## 📁 Repository Contents
 
  HR-Analytics-Dashboard
-├── HR_ANALYTICS_DASHBOARD.twb # Tableau workbook file
-├── hr_data_sample.csv # (Optional) Sample dataset used
-├── README.md # Project overview and instructions
-└── Screenshots/ # (Optional) Dashboard preview images
+- 1)HR_ANALYTICS_DASHBOARD.twb # Tableau workbook file
+- 2)hr_data_sample.csv # (Optional) Sample dataset used
+- 3)README.md # Project overview and instructions
+- 4)Screenshots/ # (Optional) Dashboard preview images
 
 ## 🎯 Use Cases
 
